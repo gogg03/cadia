@@ -8,13 +8,13 @@ alwaysApply: false
 ## Pre-Development Requirements
 ⚠️ **MANDATORY READING BEFORE CODING** ⚠️
 
-1. Always read [@architecture.md](mdc:memory-bank/@architecture.md) before writing any code
+1. Always read [architecture.md](mdc:architecture.md) before writing any code
    - Contains complete database schema
    - Defines system architecture
    - Specifies technical requirements
    - Outlines integration points
 
-2. Always read [@app-design-document.md](mdc:memory-bank/@app-design-document.md) before writing any code
+2. Always read [app-design-document.md](mdc:memory-bank/app-design-document.md) before writing any code
    - Contains application mechanics
    - Defines user experience
    - Specifies feature requirements
@@ -23,7 +23,7 @@ alwaysApply: false
 ## Post-Development Requirements
 After completing major features or milestones:
 
-1. Update [@architecture.md](mdc:memory-bank/@architecture.md) with:
+1. Update [architecture.md](mdc:architecture.md) with:
    - Any schema changes
    - New technical decisions
    - Updated architecture diagrams

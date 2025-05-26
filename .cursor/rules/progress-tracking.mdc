@@ -1,0 +1,50 @@
+# Progress Tracking Guidelines
+
+## Progress Documentation
+All project progress and changes must be documented in [progress.md](mdc:memory-bank/progress.md)
+
+### Required Updates
+1. After completing any feature:
+   - Add completion date
+   - List implemented functionality
+   - Note any technical challenges
+   - Document testing results
+
+2. When starting new features:
+   - Add planned start date
+   - List required components
+   - Note dependencies
+   - Document acceptance criteria
+
+3. For bug fixes:
+   - Document the issue
+   - Describe the solution
+   - Note any related changes
+   - Update affected components
+
+### Progress.md Structure
+- Use clear section headers
+- Include dates for all entries
+- Group related changes
+- Link to relevant documentation
+- Reference issue numbers if applicable
+
+### Milestone Tracking
+- Mark completed milestones
+- Update status of in-progress items
+- Document any blocked items
+- Note dependencies between features
+
+## Change Management
+1. Document all significant changes:
+   - Technical decisions
+   - Architecture modifications
+   - Database schema updates
+   - API changes
+
+2. Update related documentation:
+   - [@architecture.md](mdc:memory-bank/@architecture.md)
+   - [@app-design-document.md](mdc:memory-bank/@app-design-document.md)
+   - [Tech-stack.md](mdc:memory-bank/Tech-stack.md)
+
+For detailed configuration, see [Tech-stack.md](mdc:memory-bank/Tech-stack.md)

@@ -1,0 +1,40 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Critical Development Guidelines
+
+## Pre-Development Requirements
+⚠️ **MANDATORY READING BEFORE CODING** ⚠️
+
+1. Always read [@architecture.md](mdc:memory-bank/@architecture.md) before writing any code
+   - Contains complete database schema
+   - Defines system architecture
+   - Specifies technical requirements
+   - Outlines integration points
+
+2. Always read [@app-design-document.md](mdc:memory-bank/@app-design-document.md) before writing any code
+   - Contains application mechanics
+   - Defines user experience
+   - Specifies feature requirements
+   - Outlines design principles
+
+## Post-Development Requirements
+After completing major features or milestones:
+
+1. Update [@architecture.md](mdc:memory-bank/@architecture.md) with:
+   - Any schema changes
+   - New technical decisions
+   - Updated architecture diagrams
+   - New integration points
+   - Performance considerations
+
+## Documentation Standards
+- Keep documentation up-to-date
+- Include clear explanations for architectural decisions
+- Document any deviations from original design
+- Update affected components in documentation
+
+For detailed configuration, see [Tech-stack.md](mdc:memory-bank/Tech-stack.md)
+

@@ -1,0 +1,30 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# External API Integrations
+
+## Time and Astronomical Data
+- Sunrise/Sunset API: https://sunrise-sunset.org/api
+- Moon Phase API: https://api.farmsense.net/v1/moonphases/
+- DST & Timezone API: https://worldtimeapi.org/
+
+## Environmental Data
+- Schumann Resonance: Scraped from HeartMath
+- Solar Activity: NOAA API (https://services.swpc.noaa.gov/json/)
+
+## API Usage Guidelines
+1. Implement proper error handling for all API calls
+2. Cache responses where appropriate
+3. Implement rate limiting
+4. Handle API downtime gracefully
+5. Store API keys securely
+
+## Data Storage
+- Store processed data in MongoDB
+- Implement data validation
+- Set up proper indexing for queries
+- Regular backup procedures
+
+For detailed configuration, see [Tech-stack.md](mdc:memory-bank/Tech-stack.md)

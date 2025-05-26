@@ -1,0 +1,38 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Development Environment Setup
+
+## Prerequisites
+- Node.js (latest LTS version)
+- Docker and Docker Compose
+- MongoDB (local or Docker)
+- Git
+
+## Local Development
+1. Frontend development runs on Vite dev server
+2. Backend uses Express with Node.js
+3. TypeScript is used for type safety
+4. Tailwind CSS for styling
+
+## Docker Development
+- Use Docker Compose for local development
+- Frontend and backend are containerized
+- MongoDB can be run in Docker
+- PM2 manages Node.js processes
+
+## Production Deployment
+- Ubuntu Server environment
+- Nginx reverse proxy configuration
+- SSL/TLS via Let's Encrypt
+- UFW firewall rules
+- Dynamic DNS setup for home hosting
+
+## Monitoring Setup
+- Uptime Kuma for availability monitoring
+- Netdata for system metrics
+- Logrotate for log management
+
+For detailed configuration, see [Tech-stack.md](mdc:memory-bank/Tech-stack.md)
